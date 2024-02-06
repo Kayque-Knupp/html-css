@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(247, 247, 239);
+            margin: 0px;
+            border: 0px;
+        }
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: aqua;
+            padding-top: 5px;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: cadetblue;
+         
+        }
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: justify;
+            font-size: 20px;
+            color: rgb(2, 34, 63);
+        }
+        a{
+            text-decoration: none;
+            margin-left: 30px; 
+            color:rgb(0, 26, 255);
+            
+        }
+        #rodape{
+            color:white;
+            text-align: center;
+            background-color: black;
+            padding:10px;
+            margin:10px 0px;
+        }      
+        aside{
+            margin-left: 35px;
+        }
+        em{
+            font-weight: 800;
+        }
+        p{
+            background-color: rgb(223, 218, 213);
+            margin: 5px;
+        }
+        .links{
+            color:rgb(11, 228, 192);
+            display: inline;
+            margin-left: 30px;
+        }
+        .menu{
+            border-radius: 15px 0px;
+            background-color: rgb(118, 117, 119);
+            padding: 8px;
+            box-shadow: 3px 1px 2px rgba(3, 3, 3, 0.452);
+            margin: 5px;
+        }
+        .menu >a:hover{
+            color: rgb(7, 4, 145);
+            text-decoration: underline;
+        }
+        nav{
+            padding-top: 10px;
+          
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+    </header>
+    <main>
+        <section>
+            <nav class="menu">
+                <a class="links" href="#">Link</a>
+                <a class="links" href="#">Link</a>
+                <a class="links" href="#">Link</a>
+            </nav>
+            <h2>Culinária</h2>
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolores minima consequatur quod, possimus dolorum accusantium eaque labore tenetur eius exercitationem, quibusdam architecto eos explicabo commodi hic suscipit laborum animi!</p>
+                    <nav>
+                        <a href="#">Bolo de banana</a>
+                        <aside><em>Ana Maria Braga</em></aside>
+                        <a href="#">Bolo de mandioca nordestino</a>
+                    </nav>
+                </article>
+            <h2>Comida brasileira</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam ducimus minus consequuntur id officia molestias quaerat ipsum, earum hic autem ex similique, iure doloribus placeat explicabo optio sint cum?</p>
+                <nav>
+                    <a href="#">Feijoada</a>
+                    <a href="#">Pudim</a>
+                </nav>
+                
+            </article>
+            <h2>Arte na comida</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim placeat animi ex. Quaerat ipsam debitis architecto mollitia exercitationem quod temporibus odit adipisci. Exercitationem neque suscipit hic nisi rem id labore!</p>
+                <nav>
+                    <a href="#"> Cheffs famosos</a>
+                    <a href="#"> Comida na Net</a>
+                </nav>
+            </article>
+        </section>
+
+
+    </main>
+    <footer>
+        <p id="rodape">Site criado por <em>Kayque Knupp da Paixão</em></p>
+    </footer>
+</body>
+</html>
