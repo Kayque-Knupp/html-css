@@ -13,7 +13,7 @@ body{
     width: 1900px;
 }
 body p{
-    font-size: 2em ;
+    
     margin: 0px;
     font-family: var(--fonttexto);
 }
@@ -29,7 +29,7 @@ header h1{
     text-align: center;
     margin-top: 0px;
     margin-bottom:0px;
-    font-size: 3em;
+    
 }
 header p{
     text-align: center;
