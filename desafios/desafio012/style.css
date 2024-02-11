@@ -9,11 +9,13 @@
     --fonttexto: 'Sriracha'
 }
 body{
+    font-size: 1em;
     margin:0px;
-    width: 1900px;
+    max-width: 1900px;
+    min-width: 320px;
 }
 body p{
-    
+    font-size:1.5vw;
     margin: 0px;
     font-family: var(--fonttexto);
 }
@@ -24,11 +26,10 @@ header{
     padding-bottom: 15px;
 }
 header h1{
+    margin: auto;
     padding-top: 50px;
     font-family: var(--fontheader);
     text-align: center;
-    margin-top: 0px;
-    margin-bottom:0px;
     
 }
 header p{
@@ -45,34 +46,32 @@ a:hover{
 }
 div{
     position: relative;
+    height: 300px;
 }
 #img1{
     background-image: url('imagens/background001.jpg');
     background-position: center center;
     background-attachment: fixed;
     color: white;
-    height: 60vh;
-    
+   
 }
 #img2{
     background-image: url('imagens/background002.jpg');
     background-position: center center;
     background-attachment: fixed;
     color: white;
-    height: 60vh;
-   
 }
 .texto{
-    height: 60vh;
     margin-left: 20px;
     margin-top: 4%;
 }
 .caixa-texto{
+    height: 5rem;
     border: 0px solid black;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.363);
     position: absolute;
-    transform: translate(5%,20%);
+    transform: translate(5%,12%);
 }
 footer {
     text-align: center;
