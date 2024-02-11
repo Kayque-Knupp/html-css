@@ -61,9 +61,8 @@ a:hover{
 }
 #img2{
     background-image: url('imagens/background002.jpg');
-    background-position: right right;
+    background-position: center right;
     background-attachment: fixed;
-    background-size: cover;
     color: white;
     box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.339);
 }
