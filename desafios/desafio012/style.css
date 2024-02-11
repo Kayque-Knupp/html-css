@@ -5,35 +5,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Sriracha&display=swap');
 
 *{
+    margin: 0px;
+    padding: 0px;
     --fontheader: 'Passion One';
     --fonttexto: 'Sriracha'
 }
 body{
-    font-size: 1em;
     margin:0px;
     max-width: 1900px;
-    min-width: 320px;
+    min-width: 100%;
 }
 body p{
-    font-size:1.5vw;
     margin: 0px;
     font-family: var(--fonttexto);
 }
+
+div{
+    padding-left: 30px;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 2.5vw;
+}
 header{
     background-color: black;
-    height: 10%;
     color: white;
     padding-bottom: 15px;
+    text-align: center;
 }
 header h1{
-    margin: auto;
     padding-top: 50px;
     font-family: var(--fontheader);
-    text-align: center;
-    
+    font-variant: small-caps;
+    font-size: 10vw;
 }
 header p{
-    text-align: center;
+    padding-bottom: 50px;
     margin: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -44,10 +51,7 @@ header p a{
 a:hover{
     text-decoration:underline;
 }
-div{
-    position: relative;
-    height: 300px;
-}
+
 #img1{
     background-image: url('imagens/background001.jpg');
     background-position: center center;
@@ -57,26 +61,27 @@ div{
 }
 #img2{
     background-image: url('imagens/background002.jpg');
-    background-position: center center;
+    background-position: right right;
     background-attachment: fixed;
     color: white;
 }
+#img1 p, #img2  p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.347);
+}
 .texto{
-    margin-left: 20px;
-    margin-top: 4%;
+   
 }
 .caixa-texto{
-    height: 5rem;
+    
     border: 0px solid black;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.363);
-    position: absolute;
-    transform: translate(5%,12%);
 }
-footer {
+footer{
     text-align: center;
     color: white;
     background-color: black;
+    padding: 10px;
 }
 footer a{
     color: white;
