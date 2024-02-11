@@ -53,28 +53,24 @@ a:hover{
 
 #img1{
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: right center;
     background-attachment: fixed;
+    background-size: cover;
     color: white;
-   
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.339);
 }
 #img2{
     background-image: url('imagens/background002.jpg');
     background-position: right right;
     background-attachment: fixed;
+    background-size: cover;
     color: white;
+    box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.339);
 }
 #img1 p, #img2  p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.347);
-}
-.texto{
-   
-}
-.caixa-texto{
-    
-    border: 0px solid black;
 }
 footer{
     text-align: center;
