@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="nome">Nome:</label> <input type="text" name="nome" id="nome" size="'6" autocomplete="name">
+        </p>
+        <p>
+            <label for="sexo">Sexo:</label> <input type="text" name="sexo" id="sexo" autocomplete="sex">
+        </p>
+        <p>
+            <label for="senha">Senha:</label> <input type="password" name="senha" id="senha" minlength="6" placeholder="ex:1234.." size="3" autocomplete="new-password">
+        </p>
+        <p>
+            <label for="idade">Idade</label> <input type="date" name="idade" id="idade">
+        </p>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Apagar">
+        
+    </form>
+</body>
+</html>
