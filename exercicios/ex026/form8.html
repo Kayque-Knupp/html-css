@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>soma e satisfação</h1>
+    <form action="">
+
+        <label for="id_num1">Digite o primeiro número:</label>
+        <input type="number" name="num1" id="id_num1" oninput="resultado.innerHTML= Number(id_num1.value) + Number(id_num2.value)">
+        <br>
+        <br>
+        <label for="id_num2">Digite o segundo número:</label>
+        <input type="number" name="num2" id="id_num2" oninput="resultado.innerHTML= Number(id_num1.value) + Number(id_num2.value)">
+        <br>
+        <br>
+        <label for="resultado"> Resultado da soma:</label>
+        <output name="resultado" id="resultado">0
+        </output>
+        <br>
+        <br>
+        <br>
+        <h2>Avalie sua soma aqui:</h2>
+        <input type="range" name="avaliacao" id="id_avaliacao" min="1" max="5" oninput="avaliado.innerHTML = Number(avaliacao.value)">
+        <output id="avaliado">3</output>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
