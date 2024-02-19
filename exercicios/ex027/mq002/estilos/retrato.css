@@ -1,3 +1,7 @@
 @charset "utf-8";
 
 /* Dispositivos móveis*/
+
+body{
+    background-image:url(../imagens/cev-portrait.jpg) ;
+}
