@@ -6,10 +6,9 @@
     <title>Document</title>
     <style>
         /*Declarações Gerais*/
-        @charset "utf-8";
-            *{
-                margin: 0px;
-                padding:0px;
+         *{
+              margin: 0px;
+              padding:0px;
             }
             html, body{
                 width: 100vw;
@@ -24,12 +23,19 @@
                 text-shadow: 2px 2px 2px rgb(4, 73, 129);
             }
         /*Declarações retrato*/
-        @media screen and(orientation:portrait) {
-            
+        @media screen and (orientation:portrait) {
+            body{
+                background-image: url(../imagens/cev-portrait.jpg);
+                background-position: center bottom;
+                }
         }
         /*Declaraçõespaisagem*/
-        @media screen and(orientation:landscape) {
-            
+        @media screen and (orientation:landscape) {
+            body{
+                background: url(.//imagens/cev-landscape.jpg);
+                background-position: left bottom;
+                background-repeat: no-repeat;
+                }
         }
     </style>
 </head>
