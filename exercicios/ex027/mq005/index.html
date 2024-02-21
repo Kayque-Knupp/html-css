@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Notícias</a></li>
+                <li><a href="">Principal</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Contate-nos</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media query</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias consequuntur quas porro expedita, ipsum aliquam quaerat eius dolorum consectetur! Aut deleniti maxime voluptate ratione molestiae sit illum eum quis unde. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, autem dolor? Consectetur ut aspernatur nemo unde. Incidunt odio culpa est nobis consequuntur similique doloremque eligendi, autem deserunt. Perspiciatis, ipsam optio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, cum? Cum iure soluta iusto quibusdam, obcaecati ad quo sit facere sed nam maiores recusandae tempore magni consequatur nobis laboriosam doloremque.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias consequuntur quas porro expedita, ipsum aliquam quaerat eius dolorum consectetur! Aut deleniti maxime voluptate ratione molestiae sit illum eum quis unde. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, autem dolor? Consectetur ut aspernatur nemo unde. Incidunt odio culpa est nobis consequuntur similique doloremque eligendi, autem deserunt. Perspiciatis, ipsam optio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, cum? Cum iure soluta iusto quibusdam, obcaecati ad quo sit facere sed nam maiores recusandae tempore magni consequatur nobis laboriosam doloremque.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias consequuntur quas porro expedita, ipsum aliquam quaerat eius dolorum consectetur! Aut deleniti maxime voluptate ratione molestiae sit illum eum quis unde. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, autem dolor? Consectetur ut aspernatur nemo unde. Incidunt odio culpa est nobis consequuntur similique doloremque eligendi, autem deserunt. Perspiciatis, ipsam optio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, cum? Cum iure soluta iusto quibusdam, obcaecati ad quo sit facere sed nam maiores recusandae tempore magni consequatur nobis laboriosam doloremque.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display= 'block'
+            }
+        }
+    </script>
+</body>
+</html>
